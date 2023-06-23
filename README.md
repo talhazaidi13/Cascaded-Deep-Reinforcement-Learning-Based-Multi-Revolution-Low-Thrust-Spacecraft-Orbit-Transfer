@@ -19,14 +19,15 @@ We provide the code repository for our paper This repository includes the necess
   Alternatively, you can just download the code files from the above link. 
             
 4. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
-                                       to navigate to this folder. <br>
+                                       to navigate to this folder. 
    ```shell   
    cd "local path conatins the clonned repository containing environment.yml file "
 5. Create conda environment: create the Conda environment using the environment.yml file. use the following code: <br>
    ```shell
-   conda env create -f environment.yml  <br>
- This command will create a new Conda environment based on the specifications in the environment.yml file.
-6. Activate the environment: Use the following command to activate the environment: <br>
+   conda env create -f environment.yml  
+  
+This command will create a new Conda environment based on the specifications in the environment.yml file.
+6. Activate the environment: Use the following command to activate the environment: 
    ```shell                                        
    conda activate mat_py3.7  <br>
  Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you.  <br>
