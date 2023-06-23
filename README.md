@@ -29,7 +29,7 @@ We provide the code repository for our paper This repository includes the necess
 
 - `Final weights` folder: Contains the final trained weights for all six scenarios.
 
-## Setup up Enviornment:
+## Setting up Enviornment:
 
 
 1. Install Conda:       If conda is not installed in your system then install conda. (I used 4.10.1) <br>
