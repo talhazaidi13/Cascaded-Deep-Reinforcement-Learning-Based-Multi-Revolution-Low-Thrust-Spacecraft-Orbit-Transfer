@@ -16,7 +16,7 @@ We provide the code repository for our paper This repository includes the necess
    git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
 
   
-  Alternatively, you can just download the code files from the above link. 
+   Alternatively, you can just download the code files from the above link. 
             
 4. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
                                        to navigate to this folder. 
