@@ -107,7 +107,7 @@ This will create the desired environment in your local system. However we need t
 
 Before running the code, please ensure that you have set the paths for the CSV files. The CSV files serve as the communication link between the MATLAB environment's step function and the Python code. Without correctly setting up the paths, the state values will not be updated.
 
-To set the paths for the CSV files, follow these steps:
+- To set the paths for the CSV files, follow these steps:
 
 1. Open the Mat_env.m file.
 2. Locate lines #126 and #184 in the Mat_env.m file.
@@ -117,3 +117,20 @@ To set the paths for the CSV files, follow these steps:
    M = csvread('D:/Cascaded-DRL/csv_files/csvlist.dat')
    ```
   Replace D:/Cascaded-DRL/csv_files/csvlist.dat with the actual path to the csvlist.dat file on your system.
+
+-  Open Git Bash from the Start menu and Activate your Conda environment by running the appropriate command. For example, if your Conda environment is named "mat_py3.7," you can use the following command:
+ ```shell
+conda activate mat_py3.7
+```
+
+- Change the current directory to the folder containing the test.sh or train.sh file using the cd command. For example, if the test.sh file is located D:/Cascaded-DRL, you can use the following command:
+```shell
+cd "D:/Cascaded-DRL"
+```
+- Finally, you can run the test.sh or train.sh file  for testing with trained weights and training from the scratch, using the bash command:
+```shell
+bash test.sh
+bash train.sh
+```
+
+
