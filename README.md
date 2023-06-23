@@ -105,4 +105,18 @@ This will create the desired environment in your local system. However we need t
 
 ## Running the code:
 
-To start running the code 
+Before running the code, please ensure that you have set the paths for the CSV files. The CSV files serve as the communication link between the MATLAB environment's step function and the Python code. Without correctly setting up the paths, the state values will not be updated.
+
+To set the paths for the CSV files, follow these steps:
+
+1. Open the Mat_env.m file.
+
+2. Locate lines #126 and #184 in the Mat_env.m file.
+
+3. In those lines, modify the path for the csvlist.dat file to match the location of the file on your system. <br>
+
+   For example, if the location of the csvlist.dat file on your system is D:/Cascaded-DRL/csv_files/csvlist.dat, update the lines as follows:
+   ```python
+   M = csvread('D:/Cascaded-DRL/csv_files/csvlist.dat')
+   ```
+  Replace D:/Cascaded-DRL/csv_files/csvlist.dat with the actual path to the csvlist.dat file on your system.
