@@ -30,7 +30,7 @@ We provide the code repository for our paper This repository includes the necess
    ```shell                                        
    conda activate mat_py3.7  
    
-Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you.  <br>
+   Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you.  <br>
 
 This will create the desired environment in your local system. However we need to install MATLAB and Matlab python engine in our enviornment, through which python will communicate with MATLAB. Please follow the following steps for this. <br>
  
