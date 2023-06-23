@@ -32,8 +32,8 @@ We provide the code repository for our paper This repository includes the necess
 ## Setting up Enviornment:
 
 
-1. Install Conda:       If conda is not installed in your system then install conda. (I used 4.10.1) <br>
-2. Install git:         - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
+- Install Conda:       If conda is not installed in your system then install conda. (I used 4.10.1) <br>
+- Install git:         - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
                         - Download git from  https://git-scm.com/downloads and install it. <br>
                         - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
                           Environment variable, allowing you to use Git from the command prompt or terminal.<br>
@@ -41,23 +41,23 @@ We provide the code repository for our paper This repository includes the necess
 
    ```shell
    git --version
-3. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:
+- Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:
 
      ```shell
      git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
      ```
    Alternatively, you can just download the code files from the above link. 
             
-4. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
+- Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
                                        to navigate to this folder. 
    ```shell   
    cd "local path conatins the clonned repository containing environment.yml file "
-5. Create conda environment: create the Conda environment using the environment.yml file. use the following code: <br>
+- Create conda environment: create the Conda environment using the environment.yml file. use the following code: <br>
    ```shell
    conda env create -f environment.yml  
    ```
    This command will create a new Conda environment based on the specifications in the environment.yml file. <br>
-6. Activate the environment: Use the following command to activate the environment: 
+- Activate the environment: Use the following command to activate the environment: 
    ```shell                                        
    conda activate mat_py3.7  
    ```
