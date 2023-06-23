@@ -31,7 +31,7 @@ We provide the code repository for our paper This repository includes the necess
   ```
 
 - `train.py`: Python file which can be used to train the scenarios from scratch.
-- 'train.sh': Shell file that contains the code to run train.py file. You can select the case number and max number of episode and all other parameters which are defined in config file in here. <br>
+- 'train.sh`: Shell file that contains the code to run train.py file. You can select the case number and max number of episode and all other parameters which are defined in config file in here. <br>
              e.g If you want to run Case 1 i.e 'GTO-1 to GEO_1st network' then in train.sh file you will write as follow:
   ```python
   python train.py  --case 1 --sh_flag 0
