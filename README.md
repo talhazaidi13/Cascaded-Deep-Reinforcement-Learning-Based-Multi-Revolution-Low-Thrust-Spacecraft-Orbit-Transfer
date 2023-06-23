@@ -8,19 +8,19 @@ We provide the code repository for our paper This repository includes the necess
                           Environment variable, allowing you to use Git from the command prompt or terminal.<br>
                         - Verify the installation:  After the installation is complete, open a new command prompt or terminal window and run the following command to verify the Git version:  git --version<br>
 3. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:<br>
-                          git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
+                          git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git   <br>
                          OR you can just download the code files from here. 
 4. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
-                                       to navigate to this folder. 
+                                       to navigate to this folder. <br>
                                         cd <local path conatins the clonned repository containing environment.yml file >
-5. Create conda environment: create the Conda environment using the environment.yml file. use the following code:
-                              conda env create -f environment.yml
+5. Create conda environment: create the Conda environment using the environment.yml file. use the following code: <br>
+                              conda env create -f environment.yml  <br>
                               This command will create a new Conda environment based on the specifications in the environment.yml file.
-6. Activate the environment: Use the following command to activate the environment:
-                                        conda activate mat_py3.7 
-                              Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you. 
+6. Activate the environment: Use the following command to activate the environment: <br>
+                                        conda activate mat_py3.7  <br>
+                              Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you.  <br>
 
-This will create the desired environment in your local system. However we need to install MATLAB and Matlab python engine in our enviornment, through which python will communicate with MATLAB. Please follow the following steps for this. 
+This will create the desired environment in your local system. However we need to install MATLAB and Matlab python engine in our enviornment, through which python will communicate with MATLAB. Please follow the following steps for this. <br>
  
 1. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB. https://www.mathworks.com/products/new_products/previous_release_overview.html
 2. Activate the Conda environment: Activate your Conda environment by running the following command in your command prompt or terminal:
