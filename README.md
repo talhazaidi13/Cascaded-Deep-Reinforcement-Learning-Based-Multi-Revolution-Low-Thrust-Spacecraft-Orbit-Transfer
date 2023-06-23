@@ -29,29 +29,35 @@ We provide the code repository for our paper This repository includes the necess
 6. Activate the environment: Use the following command to activate the environment: 
    ```shell                                        
    conda activate mat_py3.7  
-   
+   ```
    Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you.  <br>
+
 
 This will create the desired environment in your local system. However we need to install MATLAB and Matlab python engine in our enviornment, through which python will communicate with MATLAB. Please follow the following steps for this. <br>
  
-1. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB. https://www.mathworks.com/products/new_products/previous_release_overview.html
+1. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 2. Activate the Conda environment: Activate your Conda environment by running the following command in your command prompt or terminal:
    ```shell
-   conda activate <environment_name>   <br>
+   conda activate <environment_name>
+   ```
 3. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
    ```shell   
-   cd "<MATLAB_installation_folder>"  <br>
-Replace <MATLAB_installation_folder> with the path to your MATLAB installation folder. By default, the MATLAB folder is located at "C:/Program Files/MATLAB". Make sure to include the double quotes if the path contains 
+   cd "<MATLAB_installation_folder>"  
+   ```
+   Replace <MATLAB_installation_folder> with the path to your MATLAB installation folder. By default, the MATLAB folder is located at "C:/Program Files/MATLAB". Make sure to include the double quotes if the path contains 
    spaces.
 4. Go to the MATLAB Engine Python folder: Change the directory to the MATLAB Engine Python folder by running the following command:
    ```shell
-   cd "R2021a\extern\engines\python"   <br>
-This will navigate you to the relevant folder containing the MATLAB Engine Python setup file.
+   cd "R2021a\extern\engines\python"  
+   ```
+   This will navigate you to the relevant folder containing the MATLAB Engine Python setup file.
 5. Install the MATLAB Engine: To install the MATLAB Engine in your Conda environment, execute the setup.py file by running the following command:
    ```shell
-   python setup.py install     <br>
-This command will install the MATLAB Engine package in your Conda environment.
+   python setup.py install  
+   ```
+   This command will install the MATLAB Engine package in your Conda environment.
 6. Verify the installation: To check if the MATLAB Engine is installed correctly, run the following command:
    ```shell
-   python -c "import matlab.engine"  <br>
+   python -c "import matlab.engine" 
+   ```
 
