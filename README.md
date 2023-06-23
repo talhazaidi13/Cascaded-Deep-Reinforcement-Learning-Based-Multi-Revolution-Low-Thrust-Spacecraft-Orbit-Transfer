@@ -103,3 +103,6 @@ This will create the desired environment in your local system. However we need t
    python -c "import matlab.engine" 
    ```
 
+## Running the code:
+
+To start running the code 
