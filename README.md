@@ -12,7 +12,7 @@ We provide the code repository for our paper This repository includes the necess
                          OR you can just download the code files from here. 
 4. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
                                        to navigate to this folder. <br>
-                                        cd <local path conatins the clonned repository containing environment.yml file >
+                                        cd "local path conatins the clonned repository containing environment.yml file "
 5. Create conda environment: create the Conda environment using the environment.yml file. use the following code: <br>
                               conda env create -f environment.yml  <br>
                               This command will create a new Conda environment based on the specifications in the environment.yml file.
