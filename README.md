@@ -24,7 +24,8 @@ We provide the code repository for our paper This repository includes the necess
 5. Create conda environment: create the Conda environment using the environment.yml file. use the following code: <br>
    ```shell
    conda env create -f environment.yml  
-This command will create a new Conda environment based on the specifications in the environment.yml file. <br>
+   ```
+   This command will create a new Conda environment based on the specifications in the environment.yml file. <br>
 6. Activate the environment: Use the following command to activate the environment: 
    ```shell                                        
    conda activate mat_py3.7  
