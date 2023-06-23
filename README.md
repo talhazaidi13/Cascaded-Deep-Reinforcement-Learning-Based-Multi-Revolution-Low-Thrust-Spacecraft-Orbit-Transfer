@@ -6,7 +6,7 @@ We provide the code repository for our paper This repository includes the necess
                         - Download git from  https://git-scm.com/downloads and install it. <br>
                         - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
                           Environment variable, allowing you to use Git from the command prompt or terminal.<br>
-                        - Verify the installation:  After the installation is complete, open a new command prompt or terminal window and run the following command to verify the Git version:  git --version<br>
+                        - Verify the installation:  After the installation is complete, open a new command prompt or terminal window and run the following command to verify the Git version: ```python git --version<br>
 3. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:<br>
                           git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git   <br>
                          OR you can just download the code files from here. 
