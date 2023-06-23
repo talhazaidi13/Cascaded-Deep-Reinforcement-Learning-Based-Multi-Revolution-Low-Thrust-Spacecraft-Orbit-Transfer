@@ -1,7 +1,7 @@
 # Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer
 We provide the code repository for our paper This repository includes the necessary code to replicate our experiments and utilize our DRL model for spacecraft trajectory planning. By accessing the repository, researchers and practitioners can benefit from our approach to efficiently transfer spacecraft to GEO using low-thrust propulsion systems.
 
-1. Install Conda:       If conda is not installed in your system then install conda. I am using conda 4.10.1 in my system. <br>
+1. Install Conda:       If conda is not installed in your system then install conda. (I used 4.10.1) <br>
 2. Install git:         - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
                         - Download git from  https://git-scm.com/downloads and install it. <br>
                         - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
