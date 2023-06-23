@@ -13,7 +13,7 @@ We provide the code repository for our paper This repository includes the necess
 3. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:<br>
    ```shell
    git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git   
-
+   ```text
     Alternatively, you can just download the code files from here. 
             
 4. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the following command 
