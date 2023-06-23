@@ -34,7 +34,7 @@ We provide the code repository for our paper This repository includes the necess
 - 'train.sh': Shell file that contains the code to run train.py file. You can select the case number and max number of episode and all other parameters which are defined in config file in here. <br>
              e.g If you want to run Case 1 i.e 'GTO-1 to GEO_1st network' then in train.sh file you will write as follow:
   ```python
-  python train.py  --case 1  --max_nu_ep 100
+  python train.py  --case 1
   ```
 
 - `Final weights` folder: Contains the final trained weights for all six scenarios.
