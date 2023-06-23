@@ -110,11 +110,8 @@ Before running the code, please ensure that you have set the paths for the CSV f
 To set the paths for the CSV files, follow these steps:
 
 1. Open the Mat_env.m file.
-
 2. Locate lines #126 and #184 in the Mat_env.m file.
-
 3. In those lines, modify the path for the csvlist.dat file to match the location of the file on your system. <br>
-
    For example, if the location of the csvlist.dat file on your system is D:/Cascaded-DRL/csv_files/csvlist.dat, update the lines as follows:
    ```python
    M = csvread('D:/Cascaded-DRL/csv_files/csvlist.dat')
