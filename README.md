@@ -12,8 +12,8 @@ We provide the code repository for our paper This repository includes the necess
    git --version
 3. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:
 
-   ```shell
-   git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
+     ```shell
+     git clone https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
 
   
    Alternatively, you can just download the code files from the above link. 
