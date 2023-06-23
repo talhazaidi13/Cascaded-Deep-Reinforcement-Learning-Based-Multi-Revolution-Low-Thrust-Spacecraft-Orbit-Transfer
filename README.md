@@ -40,7 +40,8 @@ We provide the code repository for our paper This repository includes the necess
 - `Final weights` folder: Contains the final trained weights for all six scenarios.
 - `CSV Files` folder:  Contains Csv files which is used to communicate between Matlab and python programs data.
 - `Plots` : The resulting plots from training or testing the DRL agents will be saved in plots folder.
-- 
+- `Model_training_weights`: The resulting weights from training the DRL agent will be saved in Model_training_weights folder.
+- `Model_training_logs`:    The resulting logs from training the DRL agent will be saved in Model_training_logs folder.
 
 ## Setting up Enviornment:
 
