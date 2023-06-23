@@ -36,7 +36,7 @@ We provide the code repository for our paper This repository includes the necess
   ```python
   python train.py  --case 1 --sh_flag 0
   ```
-            Note:  Make sure that while training --sh_flag 0 
+  Note:  Make sure that while training --sh_flag 0 
 - `Final weights` folder: Contains the final trained weights for all six scenarios.
 - `CSV Files` folder:  Contains Csv files which is used to communicate between Matlab and python programs data. 
 
