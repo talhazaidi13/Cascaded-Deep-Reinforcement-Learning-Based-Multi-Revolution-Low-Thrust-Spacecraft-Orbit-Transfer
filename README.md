@@ -1,6 +1,37 @@
 # Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer
 We provide the code repository for our paper This repository includes the necessary code to replicate our experiments and utilize our DRL model for spacecraft trajectory planning. By accessing the repository, researchers and practitioners can benefit from our approach to efficiently transfer spacecraft to GEO using low-thrust propulsion systems.
 
+## Files Description
+
+- `config.py`: Contains the configurations or initial parameters to run the code.
+
+- `Scenarios.py`: Contains the parameters for six transfer cases, which are as follows:
+    - GTO-1 to GEO_1st network
+    - GTO-1 to GEO_2nd network
+    - GTO-2 to GEO_1st network
+    - GTO-2 to GEO_2nd network
+    - Super-GTO to GEO_1st network
+    - Super-GTO to GEO_2nd network
+
+- `Spacecraft_env.py`: Contains the gym structured environment, which includes `env.reset()`, `env.step()`, and `env.render()` functions.
+
+- `environment.py`: Contains custom environment functions. These functions in `environment.py` are called by the gym environment in `Spacecraft_env.py`.
+
+- `spacecraftEnivironment.m`: A MATLAB code used to calculate `env.step()` values.
+
+- `environment.yml`: Contains all the required commands to recreate the Conda environment in any local system. This will recreate the exact same environment in which we trained our algorithms.
+
+- `environment_info.txt`: Contains the versions of all installed packages present in our Conda environment.
+
+- `test.py` and `test.sh`: Python and shell files used to run the scenarios with pre-trained weights.
+
+- `train.py` and `train.sh`: Python and shell files used to train the scenarios from scratch.
+
+- `Final weights` folder: Contains the final trained weights for all six scenarios.
+
+## Setup up Enviornment and run the code:
+
+
 1. Install Conda:       If conda is not installed in your system then install conda. (I used 4.10.1) <br>
 2. Install git:         - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
                         - Download git from  https://git-scm.com/downloads and install it. <br>
