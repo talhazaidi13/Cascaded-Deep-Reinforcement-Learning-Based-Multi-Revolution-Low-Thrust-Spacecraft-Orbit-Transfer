@@ -1,7 +1,7 @@
 # Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer
 We provide the code repository for our paper This repository includes the necessary code to replicate our experiments and utilize our DRL model for spacecraft trajectory planning. By accessing the repository, researchers and practitioners can benefit from our approach to efficiently transfer spacecraft to GEO using low-thrust propulsion systems.
 
-`![GTO to GEO transfer predicted through DRL ](Paper_output/GTO-GEO_fast (2).mp4)`
+`![GTO to GEO transfer predicted through DRL ](https://github.com/talhazaidi131313/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer/blob/e6a18516daf1d7c9331964408c293d5e625dd4d7/Paper_output/Super%20GTO-GEO_fast.mp4)`
 
 
 ## Files Description
