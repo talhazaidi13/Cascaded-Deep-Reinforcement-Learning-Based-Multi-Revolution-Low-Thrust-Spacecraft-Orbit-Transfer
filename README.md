@@ -3,6 +3,8 @@ We provide the code repository for our paper This repository includes the necess
 CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 :-: | :-:
 <![CDRL based GTO to GEO transfer](/paper-outputs/GTO-GEO.gif) > | <![CDRL based GTO to GEO transfer](/paper-outputs/SuperGTO-GEO.gif) >
+![CDRL based GTO to GEO transfer](/paper-outputs/a-e.PNG) 
+![CDRL based GTO to GEO transfer](/paper-outputs/Orbital_Rotation_2.png)
 
 ## Files Description
 
