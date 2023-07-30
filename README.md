@@ -5,7 +5,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 <video src='/paper-outputs/GTO-GEO_fast.mov' width=180/> | <video src='/paper-outputs/SuperGTO-GEO_fast.mov' width=180/>
 
 
-![Game Process](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/gif_english.gif)
+![CDRL based GTO to GEO transfer](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/gif_english.gif)
 
 image src='/paper-outputs/GTO-GEO3dpic.PNG' width=500/> | image src='/paper-outputs/superGTO-GEO3dpic.png' width=420/>
 
