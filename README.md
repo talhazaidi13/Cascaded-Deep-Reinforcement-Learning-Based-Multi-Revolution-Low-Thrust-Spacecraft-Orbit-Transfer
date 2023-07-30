@@ -7,6 +7,8 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 
 ![CDRL based GTO to GEO transfer](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/gif_english.gif)
 
+![CDRL based GTO to GEO transfer](https://github.com/talhazaidi13/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer/tree/159f0c422a70bc4850450ec880ec7e7df571db2d/paper-outputs/GTO-GEO.gif)
+
 image src='/paper-outputs/GTO-GEO3dpic.PNG' width=500/> | image src='/paper-outputs/superGTO-GEO3dpic.png' width=420/>
 
 
