@@ -4,11 +4,6 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 :-: | :-:
 <![CDRL based GTO to GEO transfer](/paper-outputs/GTO-GEO.gif) > | <![CDRL based GTO to GEO transfer](/paper-outputs/SuperGTO-GEO.gif) >
 
-
-image src='/paper-outputs/GTO-GEO3dpic.PNG' width=500/> | image src='/paper-outputs/superGTO-GEO3dpic.png' width=420/>
-
-
-
 ## Files Description
 
 - `config.py`: Contains the configurations or initial parameters to run the code.
@@ -143,5 +138,11 @@ cd "D:/Cascaded-DRL"
 bash test.sh
 bash train.sh
 ```
+
+## Results
+CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
+:-: | :-:
+<image src='/paper-outputs/GTO-GEO3dpic.PNG' width=500/> | <image src='/paper-outputs/superGTO-GEO3dpic.png' width=420/>
+<image src='/paper-outputs/tab3.PNG' width=500/> | <image src='/paper-outputs/tab6.png' width=420/>
 
 
