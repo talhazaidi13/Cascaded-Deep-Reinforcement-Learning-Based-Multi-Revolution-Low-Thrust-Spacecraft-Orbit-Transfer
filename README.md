@@ -5,7 +5,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 <video src='/paper-outputs/GTO-GEO_fast.mov' width=180/> | <video src='/paper-outputs/SuperGTO-GEO_fast.mov' width=180/>
 
 
-![CDRL based GTO to GEO transfer](https://github.com/talhazaidi13/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer/tree/159f0c422a70bc4850450ec880ec7e7df571db2d/paper-outputs/GTO-GEO.gif)
+![CDRL based GTO to GEO transfer](https://github.com/talhazaidi13/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer/paper-outputs/GTO-GEO.gif)
 
 ![CDRL based GTO to GEO transfer](https://github.com/talhazaidi13/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer/tree/159f0c422a70bc4850450ec880ec7e7df571db2d/paper-outputs/GTO-GEO.gif)
 
