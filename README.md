@@ -143,7 +143,7 @@ bash train.sh
 CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 :-: | :-:
 <image src='/paper-outputs/GTO-GEO3dpic.PNG' width=500/> | <image src='/paper-outputs/superGTO-GEO3dpic.png' width=420/>
-<image src='/paper-outputs/fig6.PNG' width=500/> | <image src='/paper-outputs/fig13.PNG' width=500/>
+<image src='/paper-outputs/fig7.PNG' width=500/> | <image src='/paper-outputs/fig13.PNG' width=500/>
 <image src='/paper-outputs/tab3.PNG' width=500/> | <image src='/paper-outputs/tab6.PNG' width=500/>
 <image src='/paper-outputs/fig5.PNG' width=500/> | <image src='/paper-outputs/fig10.PNG' width=500/>
 <image src='/paper-outputs/fig8.PNG' width=500/> | <image src='/paper-outputs/fig11.PNG' width=500/>
