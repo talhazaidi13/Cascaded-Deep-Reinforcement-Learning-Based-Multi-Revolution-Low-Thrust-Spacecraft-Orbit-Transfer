@@ -2,7 +2,7 @@
 We provide the code repository for our paper This repository includes the necessary code to replicate our experiments and utilize our DRL model for spacecraft trajectory planning. By accessing the repository, researchers and practitioners can benefit from our approach to efficiently transfer spacecraft to GEO using low-thrust propulsion systems.
 CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 :-: | :-:
-<video src='/paper-outputs/GTO-GEO.gif' width=180/> | <video src='/paper-outputs/GTO-GEO.gif' width=180/>
+<![CDRL based GTO to GEO transfer](/paper-outputs/GTO-GEO.gif) width=180/> | <video src='/paper-outputs/GTO-GEO.gif' width=180/>
 
 
 ![CDRL based GTO to GEO transfer](/paper-outputs/GTO-GEO.gif)
