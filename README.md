@@ -4,8 +4,6 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 :-: | :-:
 <![CDRL based GTO to GEO transfer](/paper-outputs/GTO-GEO.gif) > | <![CDRL based GTO to GEO transfer](/paper-outputs/SuperGTO-GEO.gif) >
 
-<![ae](/paper-outputs/a-e.PNG) >
-<![rot](/paper-outputs/Orbital_Rotation_2.png)>
 
 ## Files Description
 
