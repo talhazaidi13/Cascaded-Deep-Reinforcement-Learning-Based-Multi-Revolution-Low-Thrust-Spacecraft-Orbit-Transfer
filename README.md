@@ -65,8 +65,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```shell   
    cd "<MATLAB_installation_folder>"  
    ```
-   Replace <MATLAB_installation_folder> with the path to your MATLAB installation folder. By default, the MATLAB folder is located at "C:/Program Files/MATLAB". Make sure to include the double quotes if the path contains 
-   spaces.
+   Replace <MATLAB_installation_folder> with the path to your MATLAB installation folder. By default, the MATLAB folder is located at "C:/Program Files/MATLAB". Make sure to include the double quotes if the path contains spaces.
 7. Go to the MATLAB Engine Python folder: Change the directory to the MATLAB Engine Python folder by running the following command:
    ```shell
    cd "R2021a\extern\engines\python"  
@@ -82,14 +81,15 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    python -c "import matlab.engine" 
    ```
    
-10. Install git:         - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
-                        - Download git from  https://git-scm.com/downloads and install it. <br>
-                        - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
+10. Install git:   - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
+                    - Download git from  https://git-scm.com/downloads and install it. <br>
+                    - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
                           Environment variable, allowing you to use Git from the command prompt or terminal.<br>
                         - Verify the installation:  After the installation is complete, open a new command prompt or terminal window and run the following command to verify the Git version:
 
    ```shell
    git --version
+ ```
 11. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:
 
      ```shell
@@ -101,6 +101,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
                                        to navigate to the folder. e.g if environment.yml is at the location of D:\project then
    ```shell   
    cd "D:\project"
+ ```
 13. Update conda environment: Update the Conda environment using the environment.yml file. use the following code: <br>
    ```shell
    conda env update -f environment.yml  
