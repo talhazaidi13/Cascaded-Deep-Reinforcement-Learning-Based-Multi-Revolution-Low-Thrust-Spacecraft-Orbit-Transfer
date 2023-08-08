@@ -99,7 +99,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 12. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the cd command 
                                        to navigate to the folder. e.g if environment.yml is at the location of D:\project then
    ```shell   
-   cd "D:\project"
+       cd "D:\project"
    ```
 13. Update conda environment: Update the Conda environment using the environment.yml file. use the following code: <br>
    ```shell
