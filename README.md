@@ -53,32 +53,32 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 1. Install Conda:        If conda is not installed in your system then install conda. (I used 4.10.1) <br>
 2. Install CUDA & CUDNN:  Follow the instructions in  https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805#3e72
 3. create conda environment named as mat_py3.7 and install python 3.7 in it. 
-```shell
-   conda create --name mat_py3.7 python=3.7
+   ```shell
+       conda create --name mat_py3.7 python=3.7
    ```
 4. Activate the environment: Use the following command to activate the environment: 
    ```shell                                        
-   conda activate mat_py3.7  
+       conda activate mat_py3.7  
    ```
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
    ```shell   
-   cd "<MATLAB_installation_folder>"  
+       cd "<MATLAB_installation_folder>"  
    ```
    Replace <MATLAB_installation_folder> with the path to your MATLAB installation folder. By default, the MATLAB folder is located at "C:/Program Files/MATLAB". Make sure to include the double quotes if the path contains spaces.
 7. Go to the MATLAB Engine Python folder: Change the directory to the MATLAB Engine Python folder by running the following command:
    ```shell
-   cd "R2021a\extern\engines\python"  
+       cd "R2021a\extern\engines\python"  
    ```
    This will navigate you to the relevant folder containing the MATLAB Engine Python setup file.
 8. Install the MATLAB Engine: To install the MATLAB Engine in your Conda environment, execute the setup.py file by running the following command:
    ```shell
-   python setup.py install  
+       python setup.py install  
    ```
    This command will install the MATLAB Engine package in your Conda environment.
 9. Verify the installation: To check if the MATLAB Engine is installed correctly, run the following command:
    ```shell
-   python -c "import matlab.engine" 
+       python -c "import matlab.engine" 
    ```
    
 10. Install git:   - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
@@ -86,30 +86,29 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
                     - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
                           Environment variable, allowing you to use Git from the command prompt or terminal.<br>
                         - Verify the installation:  After the installation is complete, open a new command prompt or terminal window and run the following command to verify the Git version:
-
    ```shell
-   git --version
- ```
+       git --version
+   ```
 11. Clone the repository: Run the following command in your command prompt or terminal to clone the GitHub repository to your local system:
 
-     ```shell
-     git clone https://github.com/talhazaidi13/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
-     ```
+  ```shell
+       git clone https://github.com/talhazaidi13/Cascaded-Deep-Reinforcement-Learning-Based-Multi-Revolution-Low-Thrust-Spacecraft-Orbit-Transfer.git
+  ```
    Alternatively, you can just download the code files from the above link. 
             
 12. Navigate to the project directory:  Navigate to the project directory on your local system, which contains the cloned repository. In that folder you will find the environment.yml file. you can use the cd command 
                                        to navigate to the folder. e.g if environment.yml is at the location of D:\project then
    ```shell   
    cd "D:\project"
- ```
+   ```
 13. Update conda environment: Update the Conda environment using the environment.yml file. use the following code: <br>
    ```shell
-   conda env update -f environment.yml  
+       conda env update -f environment.yml  
    ```
-   This command will create a new Conda environment based on the specifications in the environment.yml file. <br>
+   This command will update the Conda environment based on the specifications in the environment.yml file. <br>
 14. Activate the environment: Use the following command to activate the environment: 
    ```shell                                        
-   conda activate mat_py3.7  
+       conda activate mat_py3.7  
    ```
    Please note that the name mat_py3.7 is the name of environment specified in the enviornment.yml file. You can rename it according to you.  <br>
 
