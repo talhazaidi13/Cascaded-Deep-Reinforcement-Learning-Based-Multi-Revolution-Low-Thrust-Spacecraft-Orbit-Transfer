@@ -154,7 +154,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 <image src='/paper-outputs/fig6.PNG' width=500/> | <image src='/paper-outputs/fig12.PNG' width=500/>
 
 ## Citation
-If you find this work beneficial to your research or project, I kindly request that you cite it using the following format:
+If you find this work beneficial to your research or project, I kindly request that you cite it:
 ```
 @article{zaidi2023cascaded,
   title={Cascaded Deep Reinforcement Learning-Based Multi-Revolution Low-Thrust Spacecraft Orbit-Transfer},
