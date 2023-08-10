@@ -1,5 +1,7 @@
 # Cascaded-Deep-Reinforcement-Learning (CDRL) Based Multi-Revolution Low-Thrust-Spacecraft Orbit Transfer
 We provide the code repository for our paper This repository includes the necessary code to replicate our experiments and utilize our DRL model for spacecraft trajectory planning. By accessing the repository, researchers and practitioners can benefit from our approach to efficiently transfer spacecraft to GEO using low-thrust propulsion systems.
+https://ieeexplore.ieee.org/abstract/document/10207710
+
 CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 :-: | :-:
 <![CDRL based GTO to GEO transfer](/paper-outputs/GTO-GEO.gif) > | <![CDRL based GTO to GEO transfer](/paper-outputs/SuperGTO-GEO.gif) >
