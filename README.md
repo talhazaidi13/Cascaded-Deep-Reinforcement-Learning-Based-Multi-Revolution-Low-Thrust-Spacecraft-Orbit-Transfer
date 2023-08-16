@@ -53,7 +53,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
 
 
 1. Install Conda:        If conda is not installed in your system then install conda. (I used 4.10.1) <br>
-2. Install CUDA & CUDNN:  Follow the instructions in  https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805#3e72
+2. Install CUDA & CUDNN:  We installed Cuda 11.7.  Follow the instructions in  https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805#3e72
 3. create conda environment named as mat_py3.7 and install python 3.7 in it. 
    ```shell
        conda create --name mat_py3.7 python=3.7
@@ -62,6 +62,18 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```shell                                        
        conda activate mat_py3.7  
    ```
+5. Install pytorch with gpu: 
+    we installed torch 2.0.1+cu117. 
+    Please follow the instructions as follows to install torch. 
+        Install PyTorch 2.0.1 with CUDA 11.7:
+        ```shell   
+       pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 
+        ```        
+        To build the necessary CUDA extensions, cuda-toolkit is also required. We recommend installing with conda:
+       ```shell   
+         conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
+     ```
+    
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
    ```shell   
