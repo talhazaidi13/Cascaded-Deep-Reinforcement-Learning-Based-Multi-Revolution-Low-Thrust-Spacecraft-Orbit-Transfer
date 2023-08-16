@@ -63,16 +63,16 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
        conda activate mat_py3.7  
    ```
 5. Install pytorch with gpu: 
-    we installed torch 2.0.1+cu117. 
-    Please follow the instructions as follows to install torch. 
-        Install PyTorch 2.0.1 with CUDA 11.7:
-        ```shell   
-       pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 
-        ```        
-        To build the necessary CUDA extensions, cuda-toolkit is also required. We recommend installing with conda:
-       ```shell   
-         conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
-     ```
+    we installed torch 2.0.1+cu117. <br>
+    Please follow the instructions as follows to install torch. <br>
+        Install PyTorch 2.0.1 with CUDA 11.7:<br>
+   ```shell   
+   pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 
+   ```        
+   To build the necessary CUDA extensions, cuda-toolkit is also required. We recommend installing with conda:<br>
+   ```shell   
+   conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
+   ```
     
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
