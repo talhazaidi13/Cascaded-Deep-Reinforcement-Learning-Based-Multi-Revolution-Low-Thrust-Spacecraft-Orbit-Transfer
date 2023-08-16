@@ -73,7 +73,11 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```shell   
    conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
    ```
-    
+   Verify if it installed correctly as follows:<br>
+   ```shell   
+   python -c "import torch; print(torch.__version__)"
+   ```
+   It should show the version as 2.0.1+cu117 <br>
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
    ```shell   
