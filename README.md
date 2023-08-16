@@ -78,6 +78,16 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    python -c "import torch; print(torch.__version__)"
    ```
    It should show the version as 2.0.1+cu117 <br>
+6. Install tensorflow-gpu 2.0.1 as follows:
+   ```shell  
+    pip install tensorflow-gpu==2.7.0
+   ```
+   Install tesnsorflow keras as follows:
+   ```shell 
+   pip install tensorflow keras
+   '''
+   Verify its installation by checking its version as follows:
+   
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
    ```shell   
