@@ -79,7 +79,8 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```
    It should show the version as 2.0.1+cu117 <br>
 6. Install tensorflow-gpu 2.0.1 as follows:
-   ```shell  
+   ```shell
+    pip uninstall tensorflow-intel
     pip install tensorflow-gpu==2.7.0
    ```
    Install tesnsorflow keras as follows:
