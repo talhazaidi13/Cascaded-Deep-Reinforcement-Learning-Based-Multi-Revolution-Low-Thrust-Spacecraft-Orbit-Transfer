@@ -62,7 +62,22 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```shell                                        
        conda activate mat_py3.7  
    ```
-5. Install pytorch with gpu: 
+5. Install tensorflow-gpu 2.7.0 as follows:
+   ```shell
+    pip uninstall tensorflow-intel
+    pip install tensorflow-gpu==2.7.0
+   ```
+   if there are any errors appeared while installing then try to remove those errors first e.g as follows:<br>
+   ```shell
+   pip install array-record dm-tree etils[enp,epath]>=0.9.0 promise tensorflow-metadata toml
+   ```
+   Verify its installation by checking its version with GPU as follows:<br>
+   ```shell
+   python -c "import tensorflow as tf; print(tf.config.experimental.list_physical_devices('GPU'))"
+   ```
+   it should return the GPU details like [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')] etc<br>
+   
+6. Install pytorch with gpu: 
     we installed torch 2.0.1+cu117. <br>
     Please follow the instructions as follows to install torch. <br>
         Install PyTorch 2.0.1 with CUDA 11.7:<br>
@@ -78,20 +93,7 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    python -c "import torch; print(torch.__version__)"
    ```
    It should show the version as 2.0.1+cu117 <br>
-6. Install tensorflow-gpu 2.7.0 as follows:
-   ```shell
-    pip uninstall tensorflow-intel
-    pip install tensorflow-gpu==2.7.0
-   ```
-   if there are any errors appeared while installing then try to remove those errors first e.g as follows:<br>
-   ```shell
-   pip install array-record dm-tree etils[enp,epath]>=0.9.0 promise tensorflow-metadata toml
-   ```
-   Verify its installation by checking its version with GPU as follows:<br>
-   ```shell
-   python -c "import tensorflow as tf; print(tf.config.experimental.list_physical_devices('GPU'))"
-   ```
-   it should return the GPU details like [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')] etc<br>
+
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
    ```shell   
