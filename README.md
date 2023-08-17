@@ -84,15 +84,11 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```shell   
    pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117 
    ```        
-   To build the necessary CUDA extensions, cuda-toolkit is also required. We recommend installing with conda:<br>
-   ```shell   
-   conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
-   ```
    Verify if it installed correctly as follows:<br>
    ```shell   
-   python -c "import torch; print(torch.__version__)"
+   python -c "import torch; print(f'Torch Version: {torch.__version__}\nGPU Available: {torch.cuda.is_available()}')"
    ```
-   It should show the version as 2.0.1+cu117 <br>
+   It should show the version as 2.0.1+cu117 and GPU Available: True  (if there is any GPU) <br>
 
 5. Install MATLAB: Install MATLAB on your system. (I am using MATLAB 2021a). If you dont have matlab, you can use the following link to  install MATLAB <br> https://www.mathworks.com/products/new_products/previous_release_overview.html <br>
 6. Navigate to the MATLAB folder: In the activated Conda environment, go to the MATLAB folder by running the following command:
