@@ -105,13 +105,16 @@ CDRL based GTO to GEO transfer  | CDRL based Super-GTO to GEO transfer
    ```shell
        python setup.py install  
    ```
+   if this doesnt install directly then open setup.py file and in __main__ replace the version as version="0.1.0" and then save it. 
+   after that just run the command in command line "pip install ."
+   
    This command will install the MATLAB Engine package in your Conda environment.
-9. Verify the installation: To check if the MATLAB Engine is installed correctly, run the following command:
+10. Verify the installation: To check if the MATLAB Engine is installed correctly, run the following command:
    ```shell
        python -c "import matlab.engine" 
    ```
    
-10. Install git:   - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
+11. Install git:   - If git is not installed in system then install git ( I used 2.40.0.windows.1)<br>
                     - Download git from  https://git-scm.com/downloads and install it. <br>
                     - While installing: On the "Adjusting your PATH environment" page, select the option "Git from the command line and also from 3rd-party software." This ensures that Git is added to your system's PATH 
                           Environment variable, allowing you to use Git from the command prompt or terminal.<br>
